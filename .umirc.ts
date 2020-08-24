@@ -7,4 +7,11 @@ export default defineConfig({
   dva: {
     immer: true,
   },
+  // proxy: {
+  //   '/api': {
+  //     'target': 'https://pvp.qq.com',
+  //     'changeOrigin': true,
+  //     'pathRewrite': { '^/api' : '' },
+  //   },
+  // },
 });
